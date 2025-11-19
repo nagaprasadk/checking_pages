@@ -2,7 +2,6 @@ import streamlit as st
 from langchain_openai import OpenAI
 
 # 🔑 Direct API key (replace with your actual key)
-OPENAI_API_KEY = "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"
 
 # Initialize the model
 llm = OpenAI(
